@@ -45,7 +45,7 @@ function checksCreateTodosUserAvailability(request, response, next) {
     next();
   }
 
-  next();
+  next(); 
 }
 
 function checksTodoExists(request, response, next) {
